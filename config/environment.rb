@@ -1,6 +1,8 @@
 require 'sqlite3'
 require 'pry'
 
-require_relative "../lib/student.rb"
+task :environment do
+  require_relative "../lib/student.rb"
+end
 
 DB = {:conn => SQLite3::Database.new("db/students.db")}
