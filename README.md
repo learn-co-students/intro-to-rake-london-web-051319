@@ -17,11 +17,8 @@ Once we define a task, that task can be executed from the command line.
 
 ## Why Rake?
 
-Every program has some jobs that must be executed now and then. For example, the
-task of creating a database table, the task of making or maintaining certain
-files. Before Rake was invented, we would have to write scripts that accomplish
-these tasks in BASH, or we would have to make potentially confusing and
-arbitrary decisions about what segment of our Ruby program would be responsible
+Every program has some jobs that must be executed now and then. For example, the task of creating a database table, the task of making or maintaining certain files. Before Rake was invented, we would have to write scripts that accomplish
+these tasks in BASH, or we would have to make potentially confusing and arbitrary decisions about what segment of our Ruby program would be responsible
 for executing these tasks.
 
 Writing scripts in BASH is tough, and BASH just isn't as powerful as Ruby. On
